@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\Topaz\Topaz\topaz.cpp" />
+    <ClCompile Include="..\..\Topaz\Topaz\nvtoken.cpp">
+      <Filter>NvCommandList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Topaz\Topaz\nvcommandlist.cpp">
+      <Filter>NvCommandList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Topaz\Topaz\statesystem.cpp">
+      <Filter>NvCommandList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Topaz\Topaz\TopazGLModel.cpp">
+      <Filter>TopazModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Topaz\Topaz\WeightedBlendedOIT.cpp">
+      <Filter>WeightedBlendedOIT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Topaz\Topaz\Brush.cpp">
+      <Filter>BrushStyles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Topaz\Topaz\topaz.h" />
+    <ClInclude Include="..\..\Topaz\Topaz\nvtoken.hpp">
+      <Filter>NvCommandList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Topaz\Topaz\nvcommandlist.h">
+      <Filter>NvCommandList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Topaz\Topaz\statesystem.hpp">
+      <Filter>NvCommandList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Topaz\Topaz\TopazGLModel.h">
+      <Filter>TopazModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Topaz\Topaz\WeightedBlendedOIT.h">
+      <Filter>WeightedBlendedOIT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Topaz\Topaz\includeAll.h" />
+    <ClInclude Include="..\..\Topaz\Topaz\Brush.h">
+      <Filter>BrushStyles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Topaz\Topaz\assets\shaders\common.h">
+      <Filter>shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NvCommandList">
+      <UniqueIdentifier>{dd6f3a4c-88c9-4e7d-820e-ee9a6a04d697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopazModel">
+      <UniqueIdentifier>{f22995f9-7f39-4fd1-a22e-16ce27eb1062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{474308bd-1720-4947-8526-6e9e1e09034e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WeightedBlendedOIT">
+      <UniqueIdentifier>{c167ae08-5970-4446-a1ec-8b835c3a4b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\OITShaders">
+      <UniqueIdentifier>{cc8249f3-b169-481c-85de-5725a6efb95e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BrushStyles">
+      <UniqueIdentifier>{16af9043-b0be-435a-a6fd-654d52efbb67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Topaz\Topaz\assets\shaders\vertex.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\..\Topaz\Topaz\assets\shaders\fragmentBlendOIT.glsl">
+      <Filter>shaders\OITShaders</Filter>
+    </None>
+    <None Include="..\..\Topaz\Topaz\assets\shaders\fragmentFinalOIT.glsl">
+      <Filter>shaders\OITShaders</Filter>
+    </None>
+    <None Include="..\..\Topaz\Topaz\assets\shaders\vertexOIT.glsl">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
